@@ -59,7 +59,7 @@ public class HomePageTest {
 
     //Проверяем, что при открытии выпадающего списка отображается соответствующий текст
     @Test
-    public void checkDropDownList() throws Exception {
+    public void checkDropDownList(){
         //Переходим на страницу тестового приложения
         driver.get("https://qa-scooter.praktikum-services.ru/");
 
